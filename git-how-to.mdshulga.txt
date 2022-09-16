@@ -14,4 +14,4 @@
 
 сздание в репозитории ветки (git branch name)
 переключиться в другую ветку (git checkout name)
-отправление ветки на сервер(git push --set-upstream origin name)
+отправление ветки на сервер(git push --set-upstream origin name) 
