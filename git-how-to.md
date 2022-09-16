@@ -3,3 +3,5 @@
 написать ssh-add .ssh/id_ed25519
 проверить соединение ssh -T git@github.com
 скопировать репозиторий git clone git@github.com:matveygovorukhin/myrepos.git
+sdkljghdkghfdglkjh
+dfkgdkfg
