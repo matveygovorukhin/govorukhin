@@ -17,7 +17,7 @@ def adc():
         daccc=perev(i)
         gpio.output(dac, daccc)
         compvalue=gpio.input(comp)
-        sleep(0.005)
+        sleep(0.05)
         if compvalue==0:
             return i
 
@@ -25,7 +25,7 @@ try:
     while True:
         i=adc()
         if i!=0:
-            print(i, int(3.3*k/256*100)/100)
+            print(i, '{:.2f}v'.format(3.3*i/256))
         
 finally:
     gpio.output(dac, 0)
